@@ -1,0 +1,194 @@
+body {
+	font-family: 'Antic', 'Helvetica', sans-serif;
+}
+
+svg {
+	overflow: visible;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#content {
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+}
+
+#sidebar {
+	width: 35%;
+	margin-left: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#container {
+	vertical-align: top;
+	width: 50%;
+	display: inline-block;
+	overflow: visible;
+}
+
+
+.paragraph {
+	display: block;
+	font-size: 14px;
+	color: black;
+	text-align: justify;
+	margin-bottom: 5px;
+}
+
+#title {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+
+.footer {
+	text-align: right;
+	margin-top: 20px;
+	color: gray;
+	font-size: 10px;
+}
+
+
+.subtitle {
+		text-align: left;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.citation {
+	font-size: 12px;
+	color: black;
+	text-align: left;
+	margin-bottom: 3px;
+}
+
+.citation-title {
+	font-weight: bold;
+	display: inline;
+}
+
+.node {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.I {
+	fill:red;
+}
+
+.S {
+	fill:papayawhip;
+}
+
+.R {
+	fill:slategray;
+}
+
+.V {
+	fill:lime;
+}
+
+
+.arc text {
+	font: 10px sans-serif;
+	text-anchor: middle;
+}
+
+.arc path {
+	stroke: black;
+}
+
+
+.axis {
+	font: 10px sans-serif;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.axis .domain {
+	fill: none;
+	stroke: #000;
+	stroke-opacity: 1;
+	stroke-width: 10px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.axis .halo {
+	fill: none;
+	stroke: white;
+	stroke-width: 8px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.axis text {
+	font: 10px sans-serif;
+	fill: black;
+}
+
+.axis line, .axis path {
+	fill: none;
+	stroke: #000;
+}
+
+
+.slider .handle {
+	fill: #fff;
+	stroke: #000;
+	stroke-opacity: .5;
+	stroke-width: 1.25px;
+	cursor: crosshair;
+}
+
+.slider .tag {
+	font: 10px sans-serif;
+	fill: black;
+}
+
+
+.legenditem {
+	font-size: 12px;
+}
+
+.sliderlabel {
+	font-weight: bold;
+}
+
+.playbuttonlabel {
+	pointer-events: none;
+}
+.playbutton {
+	fill: white;
+	stroke: black;
+	stroke-width: 0.5px;
+	pointer-events: none;
+	font: 10px sans-serif;
+}
+
+.resetbutton {
+	fill: white;
+	stroke: black;
+	stroke-width: 0.5px;
+	pointer-events: none;
+	font: 10px sans-serif;
+}
+
+
+.buttonring {
+	stroke: #000;
+	stroke-width: 0.5px;
+	fill: #fff;
+}
+
+
+
